@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
+        // https://leetcode.com/problems/find-all-anagrams-in-a-string/solutions/92007/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem
         vector<int> ans;
         map<char,int> ins, dict;
         set<char> outs;
